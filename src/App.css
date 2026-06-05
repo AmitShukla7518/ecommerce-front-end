@@ -1,0 +1,23 @@
+.btn-primary {
+  @apply inline-flex h-12 items-center justify-center rounded bg-ink px-5 text-sm font-bold text-white transition hover:bg-coral;
+}
+
+.btn-secondary {
+  @apply inline-flex h-12 items-center justify-center rounded border border-stone-300 bg-white px-5 text-sm font-bold text-ink transition hover:border-coral hover:text-coral;
+}
+
+.input {
+  @apply h-12 rounded border border-stone-300 bg-white px-4 text-sm outline-none transition placeholder:capitalize placeholder:text-stone-400 focus:border-coral focus:ring-2 focus:ring-coral/20;
+}
+
+.nav-link {
+  @apply text-sm font-bold text-stone-700 transition hover:text-coral;
+}
+
+.variant {
+  @apply flex min-h-12 min-w-24 flex-col items-start justify-center rounded border border-stone-300 bg-white px-4 text-sm transition hover:border-coral;
+}
+
+.variant-active {
+  @apply border-ink bg-ink text-white hover:border-ink;
+}
